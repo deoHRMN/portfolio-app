@@ -1,0 +1,52 @@
+@import './variables';
+@import './mixins';
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+.App {
+    font-family: "Source Code Pro", monospace;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+    h1 {
+        font-size: 7rem;
+
+        @include extraLarge {
+            font-size: 5rem;
+        }
+
+        @include large {
+            font-size: 4rem;
+        }
+    }
+
+    h3 {
+        font-size: 3rem;
+
+        @include extraLarge {
+            font-size: 2rem;
+        }
+    }
+
+    .card {
+        overflow-x: hidden;
+
+        .card-img-top {
+            transition: all 0.3s;
+
+            &:hover {
+                cursor: pointer;
+                scale: 1.1;
+                opacity: 0.75;
+                transition: all 0.3s;
+            }
+        }
+    }
+}
+
+$primary: #F7B801;
+$dark: #0F1020;
+$spacer: 30px;
+
+@import '~bootstrap/scss/bootstrap.scss';
