@@ -2,6 +2,8 @@ import React from 'react'
 import ProjectsItems from '../assets/ProjectsItems';
 import ProjectCard from './ProjectCard';
 
+// Here we import both the project items set from assets folder and the project card component we created in this folder.
+// We map the former on the latter here and put them in a row format. 
 const ProjectSection = () => {
   return (
     <div className='py-5' id='projects'>

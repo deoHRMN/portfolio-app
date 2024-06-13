@@ -1,5 +1,6 @@
 import React from 'react'
 
+// just a simple footer with a copyright icon and my name and year
 const Footer = () => {
   return (
     <footer className='bg-primary text-dark py-3'>

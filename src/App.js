@@ -6,6 +6,7 @@ import ProjectSection from './components/ProjectSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 
+// main app file which has all the components imported
 function App() {
   return (
     <div className="App">

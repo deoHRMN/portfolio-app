@@ -2,6 +2,7 @@ import React from 'react';
 import ViewWorkBtn from './ViewWorkBtn';
 import developerCat from '../assets/images/developerCat.png';
 
+// creates a flex column container on a small screen with my name and position on top of image which changes size depending on the screen size
 const Header = () => {
   return (
     <header className='pt-5 bg-dark' id='header'>

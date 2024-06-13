@@ -2,6 +2,8 @@ import React from 'react'
 import AboutImage from '../assets/images/aboutimg.gif';
 import ViewWorkBtn from './ViewWorkBtn';
 
+// Create an About section with image on left and paragraphs on right which on smaller screen follow flex-reverse format 
+// meaning that the image goes below paragraphs  
 const AboutSection = () => {
   return (
     <div className='bg-dark text-light py-5 container-fluid' id='about'>

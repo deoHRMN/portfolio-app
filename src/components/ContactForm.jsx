@@ -3,10 +3,13 @@ import emailjs from 'emailjs-com';
 import Button from'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
+// Contact Form which will be imported in the ContactSection.jsx
 const ContactForm = () => {
 
+  // useState used for message variable which is the green text showing when the message is sent successfully
   const [message, setMessage] = useState('');
 
+  // Email sending function provided by Email JS to use with the Contact Form
   function sendEmail(e) {
     e.preventDefault();
 
@@ -21,6 +24,7 @@ const ContactForm = () => {
       e.target.reset();
   }
 
+  // contact form created using react-bootstrap with names exactly similar to what Email JS template I created
   return (
     <Form className='bg-light text-dark p-3 border shadow' onSubmit={sendEmail}>
         <div className='row'>

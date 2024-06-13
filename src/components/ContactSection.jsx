@@ -1,6 +1,7 @@
 import React from 'react';
 import ContactForm from './ContactForm';
 
+// Imports the contact form, also has three react-icons on the left side following flex-column format on small screens
 const ContactSection = () => {
   return (
     <div className='bg-dark text-primary py-5' id='contact'>

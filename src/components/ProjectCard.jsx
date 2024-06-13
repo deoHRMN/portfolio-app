@@ -2,7 +2,8 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
-
+// Props are taken from our ProjectItems.jsx in the assets folder and mapped in ProjectSection.jsx
+// Here, a predefined react-bootstrap card is used.
 const ProjectCard = (props) => {
   return (
     <div className='col-md-6 col-lg-4'>

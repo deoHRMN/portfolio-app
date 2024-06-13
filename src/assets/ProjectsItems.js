@@ -1,3 +1,4 @@
+// importing project images
 import Project1Img from './images/torquetech.png';
 import Project2Img from './images/Linguista.png';
 import Project3Img from './images/Cookbook.png';
@@ -5,6 +6,7 @@ import Project4Img from './images/estorephp.png';
 import Project5Img from './images/2dshooter.png';
 import Project6Img from './images/2dfighter.jpg';
 
+// set of all the projects with unique ids as its keys mapped in ContactForm.jsx  
 const ProjectsItems = [
     {
         id: 1,
