@@ -6,7 +6,7 @@ import Project4Img from './images/estorephp.png';
 import Project5Img from './images/2dshooter.png';
 import Project6Img from './images/2dfighter.jpg';
 
-// set of all the projects with unique ids as its keys mapped in ContactForm.jsx  
+// set of all the projects with unique ids as its keys mapped in ProjectsSection.jsx as a list of ProjectCard.jsx component.
 const ProjectsItems = [
     {
         id: 1,
