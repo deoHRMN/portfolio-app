@@ -1,0 +1,59 @@
+@import './variables';
+@import './mixins';
+
+// Google font imported
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+// Main app file covers all compomnents imported in it
+.App {
+    font-family: "Source Code Pro", monospace;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+    //change font size of MERN STACK DEVELOPER depending on screen sizes
+    h1 {
+        font-size: 7rem;
+
+        @include extraLarge {
+            font-size: 5rem;
+        }
+
+        @include large {
+            font-size: 4rem;
+        }
+    }
+
+    // change font size of Harmanpreet Deo depending on screen sizes
+    h3 {
+        font-size: 3rem;
+
+        @include extraLarge {
+            font-size: 2rem;
+        }
+    }
+
+    // project card css with hover effect on image
+    .card {
+        overflow-x: hidden;
+
+        .card-img-top {
+            transition: all 0.3s;
+
+            &:hover {
+                cursor: pointer;
+                scale: 1.1;
+                opacity: 0.75;
+                transition: all 0.3s;
+            }
+        }
+    }
+}
+
+
+// colors redefined for predefined react-bootstrap variables
+$primary: #F7B801;
+$dark: #0F1020;
+$spacer: 30px;
+
+@import '~bootstrap/scss/bootstrap.scss';

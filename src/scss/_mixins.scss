@@ -1,0 +1,14 @@
+// reusable blocks of code to be used for styling in custom.scss
+
+// customizable css block for large screen(content can be replaced)
+@mixin large {
+    @media (max-width: $large) {
+        @content;
+    }
+}
+
+@mixin extraLarge {
+    @media (max-width: $extraLarge) {
+        @content;
+    }
+}
