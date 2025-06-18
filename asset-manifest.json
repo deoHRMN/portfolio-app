@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio-app/static/css/main.70382a5c.css",
+    "main.js": "/portfolio-app/static/js/main.0eaa4aa6.js",
+    "static/js/453.c173b4f9.chunk.js": "/portfolio-app/static/js/453.c173b4f9.chunk.js",
+    "static/media/torquetech.png": "/portfolio-app/static/media/torquetech.faf0268db00a5bb90543.png",
+    "static/media/2dshooter.png": "/portfolio-app/static/media/2dshooter.9760f8ab3d173807bd5c.png",
+    "static/media/estorephp.png": "/portfolio-app/static/media/estorephp.5513c335790b9ea134e7.png",
+    "static/media/aboutimg.gif": "/portfolio-app/static/media/aboutimg.f473cae663cb83391b9e.gif",
+    "static/media/2dfighter.jpg": "/portfolio-app/static/media/2dfighter.97b0b5f138b299b5f7f7.jpg",
+    "static/media/Cookbook.png": "/portfolio-app/static/media/Cookbook.b48253bd24fb68986279.png",
+    "static/media/developerCat.png": "/portfolio-app/static/media/developerCat.9323819df93b7dcb6230.png",
+    "static/media/Linguista.png": "/portfolio-app/static/media/Linguista.6fb9265d53c0df52cf00.png",
+    "index.html": "/portfolio-app/index.html",
+    "main.70382a5c.css.map": "/portfolio-app/static/css/main.70382a5c.css.map",
+    "main.0eaa4aa6.js.map": "/portfolio-app/static/js/main.0eaa4aa6.js.map",
+    "453.c173b4f9.chunk.js.map": "/portfolio-app/static/js/453.c173b4f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70382a5c.css",
+    "static/js/main.0eaa4aa6.js"
+  ]
+}
